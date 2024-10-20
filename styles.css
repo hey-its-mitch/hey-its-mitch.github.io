@@ -1,0 +1,67 @@
+
+@font-face {
+    font-family:IBMPlexMono;
+    src: url(fonts/IBMPlexMono-Light.ttf)
+} 
+
+body { 
+  font-family: 'IBMPlexMono' ;
+}
+
+#nav {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+#PageTitles {
+  font-size: 30px;
+}
+
+a:hover {
+  background-color:rgb(251, 239, 0);
+  transition:all .4s ease-in-out;
+}
+
+a, a:visited {
+  color: blue;
+}
+
+
+@media only screen and (max-width: 700px) {
+  #window {
+      height: 100%;
+      height: calc(100vh - env(safe-area-inset-bottom) - 2rem);
+      height: -webkit-fill-available;
+  }
+}
+
+
+.floated_img
+{ 
+display: inline-block;
+padding: 5px;
+}
+
+#mailme {
+  font-size: 20px;
+}
+
+.container {
+width: 90%;
+margin: 0 auto;
+max-width: 500px;
+text-align:center;
+
+}
+
+.wofcenter {
+width: 90%;
+margin: 0 auto;
+text-align:center;
+}
+
+#footer {
+  font-size: 14px;
+  color: blue;
+}
+
