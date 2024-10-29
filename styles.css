@@ -52,6 +52,8 @@ margin: 0 auto;
 max-width: 500px;
 text-align:center;
 
+
+
 }
 
 .wofcenter {
@@ -65,3 +67,7 @@ text-align:center;
   color: blue;
 }
 
+#footnotes {
+  font-size: 11px;
+  font-style: italic;
+}
